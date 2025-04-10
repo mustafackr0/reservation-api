@@ -34,21 +34,24 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
+```
 
+---
 
+## Test User
 
 You can use the seeded user to log in:
 
+```json
 {
   "email": "test@example.com",
   "password": "123456"
 }
+```
 
+---
 
-
-
-API Endpoints
-
+## API Endpoints
 | Method | Endpoint | Description | Auth |
 |--------|----------|-------------|------|
 | POST   | /api/register     | Register new user         | ❌ |
@@ -60,33 +63,23 @@ API Endpoints
 | GET    | /api/reservations | List user reservations    | ✅ |
 | DELETE | /api/reservations/{id} | Cancel a reservation | ✅ |
 | POST   | /api/logout       | Logout & revoke token     | ✅ |
-
 > ✅ = Requires Bearer Token
+---
 
-
-
-Postman Collection
-
+## Postman Collection
 A full set of requests is available for testing:
-
-📁 postman/reservation-api.postman_collection.json
-
+    - postman/reservation-api.postman_collection.json
 Import this file into Postman and set {{token}} after login.
+---
 
-
-Seeded Sample Data
-
+## Seeded Sample Data
 Running the seeder will create:
-
 5 hotels
-
 3 rooms per hotel (total: 15)
-
 1 test user (see above)
+---
 
-
-Contact
-
+## Contact
 Made with by Mustafa (mustafacakar0@outlook.com)
-
 Thanks for checking out this project!
+---
