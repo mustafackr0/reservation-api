@@ -52,6 +52,7 @@ You can use the seeded user to log in:
 ---
 
 ## API Endpoints
+
 | Method | Endpoint | Description | Auth |
 |--------|----------|-------------|------|
 | POST   | /api/register     | Register new user         | ❌ |
@@ -63,7 +64,9 @@ You can use the seeded user to log in:
 | GET    | /api/reservations | List user reservations    | ✅ |
 | DELETE | /api/reservations/{id} | Cancel a reservation | ✅ |
 | POST   | /api/logout       | Logout & revoke token     | ✅ |
+
 > ✅ = Requires Bearer Token
+
 ---
 
 ## Postman Collection
@@ -90,8 +93,11 @@ Running the seeder will create:
 
 ## Contact
 
-Made with by Mustafa (mustafacakar0@outlook.com)
+Made with by Mustafa, 
 Thanks for checking out this project!
-GitHub Profile
+
+📧 [Mail](mailto:mustafacakar0@outlook.com)
+🔗 [LinkedIn](https://linkedin.com/in/mustafacakar0) 
+🔗 [GitHub Profile](https://github.com/mustafackr0)
 
 ---
