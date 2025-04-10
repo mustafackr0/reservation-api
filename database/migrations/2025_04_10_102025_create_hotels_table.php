@@ -14,7 +14,7 @@ return new class extends Migration
             $table->string(column: 'location');
             $table->text(column: 'description')->nullable();
             $table->string(column: 'image')->nullable();
-            $table->tinyInteger(column: 'star')->default(0);
+            $table->tinyInteger(column: 'stars')->default(0);
             $table->timestamps();
         });
     }
