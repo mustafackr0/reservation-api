@@ -67,19 +67,31 @@ You can use the seeded user to log in:
 ---
 
 ## Postman Collection
+
 A full set of requests is available for testing:
+
     - postman/reservation-api.postman_collection.json
+
 Import this file into Postman and set {{token}} after login.
+
 ---
 
 ## Seeded Sample Data
+
 Running the seeder will create:
+
 5 hotels
+
 3 rooms per hotel (total: 15)
+
 1 test user (see above)
+
 ---
 
 ## Contact
+
 Made with by Mustafa (mustafacakar0@outlook.com)
 Thanks for checking out this project!
+GitHub Profile
+
 ---
